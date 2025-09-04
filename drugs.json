@@ -1,0 +1,37 @@
+[
+  {
+    "id": "duorespiromax160",
+    "name": "Duoresp Spiromax 160/4.5",
+    "tags": [
+      "ICS",
+      "LABA"
+    ],
+    "puffsPerBox": 120,
+    "color": "#F0F6FF",
+    "image": "images/duorespiromax160.png",
+    "shelfLifeDays": 90
+  },
+  {
+    "id": "metzodin",
+    "name": "Metzodin Nasal",
+    "tags": [
+      "Nasal"
+    ],
+    "puffsPerBox": 65,
+    "color": "#E8FBFF",
+    "image": "images/metzodin.png",
+    "calcMode": "durationOnly",
+    "boxDurationDays": 56,
+    "note": "พ่นจมูก 2 ข้าง วันละ 2 ครั้ง (ยาตามอาการ)"
+  },
+  {
+    "id": "aerobidal_mdi",
+    "name": "Aerobidal MDI",
+    "tags": [
+      "SABA"
+    ],
+    "puffsPerBox": 200,
+    "color": "#F8FFF0",
+    "image": "images/placeholder.png"
+  }
+]
