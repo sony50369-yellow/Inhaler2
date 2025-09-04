@@ -27,7 +27,6 @@ function buildTabs(){
 }
 function filtered(){
   if(STATE.filter==='ทั้งหมด') return DRUGS;
-  const ALIAS={ 'ICS+LABA':['ICS','LABA'], 'SAMA+SABA':['SAMA','SABA'] };
   const key = ALIAS[STATE.filter] ?? STATE.filter;
   if(Array.isArray(key)) return DRUGS.filter(d=> key.every(t=>d.tags.includes(t)));
   return DRUGS.filter(d=> d.tags.some(t=> t.toLowerCase()===String(key).toLowerCase()));
