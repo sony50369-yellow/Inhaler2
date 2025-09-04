@@ -72,10 +72,10 @@ function renderCards(){
         <div class="tags">${d.tags.join(' · ')} · ${d.puffsPerBox} puff/กล่อง</div>
         <div class="controls-mini">
           <label>เลือก</label>
-          <input type="number" class="ppd" min="0" max="6" placeholder="พ่น/วัน (1–6)" value="${ppd}">
+          <input type="number" class="ppd" min="0" max="4" placeholder="พ่น/วัน (1–4)" value="${ppd}">
         </div>
         <div class="quick">
-          ${[1,2,3,4,5,6].map(n=>`<button class="pill" type="button" data-n="${n}">${n}</button>`).join('')}
+          ${[1,2,3,4].map(n=>`<button class="pill" type="button" data-n="${n}">${n}</button>`).join('')}
         </div>
         <div class="imgwrap">
           <img src="${imgSrc}" alt="${d.name}" loading="lazy" onerror="this.style.display='none'">
