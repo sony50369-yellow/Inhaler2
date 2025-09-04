@@ -70,6 +70,17 @@
     "image": "seretide-50-250.png"
   },
   {
+    "id": "duorespiromax160",
+    "name": "Duoresp Spiromax 160/4.5",
+    "tags": [
+      "ICS+LABA"
+    ],
+    "puffsPerBox": 120,
+    "color": "#F0F6FF",
+    "image": "duoresp-160-4_5.png",
+    "shelfLifeDays": 90
+  },
+  {
     "id": "duoresp_320_9",
     "name": "DuoResp Spiromax 320/9",
     "tags": [
@@ -118,17 +129,6 @@
     "puffsPerBox": 120,
     "color": "#EAEAEA",
     "image": "busonase.png"
-  },
-  {
-    "id": "duorespiromax160",
-    "name": "Duoresp Spiromax 160/4.5",
-    "tags": [
-      "ICS+LABA"
-    ],
-    "puffsPerBox": 120,
-    "color": "#F0F6FF",
-    "image": "duoresp-160-4_5.png",
-    "shelfLifeDays": 90
   },
   {
     "id": "metzodin",
